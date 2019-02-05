@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp">
+    <TextField layoutX="118.0" layoutY="148.0" promptText="Username" fx:id="tfUname"/>
+    <TextField layoutX="118.0" layoutY="198.0" promptText="Email" fx:id="tfEmail"/>
+    <PasswordField layoutX="118.0" layoutY="250.0" promptText="Password" fx:id="pfPass"/>
+    <PasswordField layoutX="115.0" layoutY="300.0" promptText="Confirm Password" fx:id="pfPassConfirm"/>
+    <Button layoutX="203.0" layoutY="368.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Sign up" onAction="#signup" fx:id="btSignup"/>
+    <Button layoutX="118.0" layoutY="368.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="79.0" text="Discard" onAction="#discard" fx:id="btDiscard"/>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+    <TextField fx:id="tfUsername" layoutX="118.0" layoutY="289.0" promptText="Username" />
+    <PasswordField fx:id="pfPassword" layoutX="118.0" layoutY="332.0" promptText="Password" />
+   <Button layoutX="206.0" layoutY="377.0" mnemonicParsing="false" onAction="#btLogin" prefHeight="25.0" prefWidth="76.0" text="Login" fx:id="loginbt"/>
+   <Button layoutX="118.0" layoutY="377.0" mnemonicParsing="false" onAction="#btSignup" text="New User" fx:id="signupbt"/>
+   <ImageView fx:id="imUser" fitHeight="94.0" fitWidth="97.0" layoutX="152.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true" />
+</AnchorPane>
