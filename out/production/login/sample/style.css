@@ -1,0 +1,19 @@
+.root {
+    -fx-background-color: #F44336;
+}
+
+.text-field {
+    -fx-background-color: #ef9a9a;
+    -fx-prompt-text-fill: red;
+    -fx-text-fill: red;
+}
+
+.button {
+    -fx-background-color: #c62828;
+    -fx-text-fill: #ffebee;
+}
+
+#signupbt {
+    -fx-background-color: #F44336;
+    -fx-text-fill: #ffebee;
+}

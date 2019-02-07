@@ -6,8 +6,12 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 
+<?import java.net.URL?>
 <AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
             xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SignUp">
+    <stylesheets>
+        <URL value="@style.css" />
+    </stylesheets>
     <TextField layoutX="118.0" layoutY="148.0" promptText="Username" fx:id="tfUname"/>
     <TextField layoutX="118.0" layoutY="198.0" promptText="Email" fx:id="tfEmail"/>
     <PasswordField layoutX="118.0" layoutY="250.0" promptText="Password" fx:id="pfPass"/>
